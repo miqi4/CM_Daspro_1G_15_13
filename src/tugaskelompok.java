@@ -1,8 +1,22 @@
 import java.util.Scanner;
 public class tugaskelompok {
     public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.println("===== Menu utama ======");
+        System.out.println("1. Tambahkan pesanan");
+        System.out.println("2. Tampilkan Daftar Pesanan");
+        System.out.println("3. Keluar");
+        System.out.print("Pilih menu : ");
+        int minu = sc.nextInt();
+        if (minu == 1) {
+            System.out.print("Massukan nama pelanggan : ");
+            String pelanggan = sc.next();
+            System.out.print("Massukan nomor meja : ");
+            int nomor = sc.nextInt();
+        }
+
+
         
-        Scanner sc = new Scanner(System.in);
         System.out.println("===== MENU KAFE =====");
         System.out.println("1. Kopi Hitam - Rp 15000");
         System.out.println("2. Latte - Rp 22000");
