@@ -1,6 +1,5 @@
 import java.util.Scanner;
 public class tugaskelompok {
-
     public static void main(String[] args) {
         String pelanggan="";
         int banyakbeli=0,total=0,nomor=0;
