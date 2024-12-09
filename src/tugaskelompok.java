@@ -24,7 +24,6 @@ public class tugaskelompok {
                 System.out.println("Pilihan tidak valid. Coba lagi.");
             }
         }
-        sc.close();
     }
 
     public static int tampilkanMenu(Scanner sc) {
